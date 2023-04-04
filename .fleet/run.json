@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "maven-run",
+            "name": "Maven-run configuration",
+            "mainClass": "rexx",
+        },
+        {
+            "type": "maven",
+            "name": "Maven configuration",
+            "tasks": ["rexx"],
+        },
+        {
+            "type": "spring-boot",
+            "name": "Spring-boot configuration",
+            "mainClass": "rexx",
+            "module": "rexx",
+        },
+        
+    ]
+}
